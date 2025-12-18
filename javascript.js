@@ -22,14 +22,25 @@ container.appendChild(headingTest)
 
 const div2 = document.createElement("div");
 div2.classList.add("div-two")
-div2.setAttribute("style", "display: flex; border-color: black; border: 5px; background-color: pink")
-
+div2.setAttribute("style", "display: flex; border: 1px solid black; background-color: pink; padding: 10px; flex-direction: column; align-items: center")
 container.appendChild(div2);
 
 const headingOne = document.createElement("h1");
 headingOne.classList.add("h1-heading");
-headingOne.textContent = "I'm in a div!";
+headingOne.textContent = "virgin.";
+headingOne.setAttribute
 
 div2.appendChild(headingOne);
+
+const paragraph = document.createElement("p");
+paragraph.classList.add("para");
+paragraph.textContent = "ME TOO!";
+
+div2.appendChild(paragraph);
+
+
+
+
+
 
 
