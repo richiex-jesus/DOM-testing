@@ -27,7 +27,7 @@ container.appendChild(div2);
 
 const headingOne = document.createElement("h1");
 headingOne.classList.add("h1-heading");
-headingOne.textContent = "virgin.";
+headingOne.textContent = prompt("what you type here will show on the screen.");
 headingOne.setAttribute
 
 div2.appendChild(headingOne);
